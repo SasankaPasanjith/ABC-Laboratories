@@ -9,6 +9,7 @@ public class AbcLaboratoriesApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(AbcLaboratoriesApplication.class, args);
+		System.out.println("Project Started...");
 	}
 
 }
