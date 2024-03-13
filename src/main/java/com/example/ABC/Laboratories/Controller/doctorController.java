@@ -13,6 +13,11 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import com.example.ABC.Laboratories.Exception.ResourceNotFoundException;
+import com.example.ABC.Laboratories.Model.doctor;
+import com.example.ABC.Laboratories.Repository.doctorRepo;
+import com.example.ABC.Laboratories.responce.responce;
+
 @CrossOrigin
 @RestController
 @RequestMapping("/api/v1/consult/")
