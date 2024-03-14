@@ -9,6 +9,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.web.bind.annotation.*;
+import com.example.ABC.Laboratories.Model.doctor;
+
 
 import java.util.HashMap;
 import java.util.List;
@@ -115,4 +117,8 @@ public class appointmentController {
         javaMailSender.send(mailMessage);
     }
 
+    @PostMapping("/consultant-name/{name}")
+    public List<appoinment> filterByCounsultName(@PathVariable String name) {
+        return appoinmentRepo.findByCounsultName(name);
+    }
 }
