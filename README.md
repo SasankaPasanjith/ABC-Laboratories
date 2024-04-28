@@ -18,6 +18,8 @@ For further reference, please consider the following sections:
 
 
 ## How to Run the Project
+* Clone this repository into your local machine.
+* Check if you have installed java on your computer.
 * Open the project in the relevant IDE.
 * Open Application.properties. Then enter the mySQL data of your PC for the datasource URL, name and password.
 * After that click the run button to run the application.
@@ -35,3 +37,7 @@ For further reference, please consider the following sections:
 * Admin Function (Add, update, delete Users & Doctors)
 * Doctor Function (View Appointments, Approve & Reject Appointments)
 
+
+## Technologies
+* Backend = Java, Springboot
+* Database = MYSQL & MYSQL Workbench
